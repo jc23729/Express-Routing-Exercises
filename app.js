@@ -31,7 +31,7 @@ app.get('/', function(req, res){
 //spin up server    nodemon app.js in commandline / terminal
 // go to localhost:3000 on browser to see your server and code
 
-
+const { convertAndValidateNumsArray, findMode, findMean, findMedian } = require('./helpers');
 
 app.listen(3000, function () {
   console.log('App on port 3000');
