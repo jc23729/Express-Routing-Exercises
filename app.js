@@ -1,7 +1,8 @@
+// Requirements files
 const express = require('express');
 const app = express();
 const ExpressError = require('./expressError');
-
+//we are importing from the helpers file
 const { convertAndValidateNumsArray, findMode, findMean, findMedian } = require('./helpers');
 
 app.get('/mean', function(req, res, next) {
