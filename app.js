@@ -91,7 +91,9 @@ app.use(function (err, req, res, next) {
 // Binds the server to port & listens for requests there.
 // Calls callback once server has started up.
 // app.listen should always be at the bottom of the file
-// app.listen(3000, function() {
+
+
+app.listen(3000, function() {
   console.log(`Server starting on port 3000`);
 });
 
